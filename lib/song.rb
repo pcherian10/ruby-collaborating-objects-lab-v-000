@@ -10,8 +10,6 @@ class Song
     song = Song.new(file_name)
     @name.split("-")
     binding.pry
-
-
   end
 
   def artist_name=(artist)
