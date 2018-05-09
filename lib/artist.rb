@@ -18,6 +18,7 @@ attr_reader :songs
   end
 
   def self.create_by_name (name)
+    
 
   end
 
@@ -27,7 +28,7 @@ attr_reader :songs
   end
 
   def self.find_or_create_by_name (name)
-
+    
 
   end
 
