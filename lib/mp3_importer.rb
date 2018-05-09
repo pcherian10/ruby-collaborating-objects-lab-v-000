@@ -8,7 +8,6 @@ class MP3Importer
 
   def files
     Dir.entries(path).select {|file| file if file.include?(".mp3")}
-
   end
 
   def import
