@@ -22,9 +22,9 @@ attr_reader :songs
   end
 
   def self.create_by_name (name)
-    song = self.new
-
-
+    artist = self.new
+    artist.name = name
+    artist
   end
 
   def self.find_by_name (name)
