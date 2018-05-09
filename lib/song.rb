@@ -5,9 +5,9 @@ class Song
     @name = name
   end
 
-  def self.new_by_filename (name)
-    song = Song.new(name)
-
+  def self.new_by_filename (file_name)
+    song = Song.new(file_name)
+    
 
   end
 
