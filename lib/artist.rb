@@ -13,6 +13,10 @@ attr_reader :songs
     @songs << song
   end
 
+  def save
+    @@all << song
+  end
+
   def songs
     @songs
   end
