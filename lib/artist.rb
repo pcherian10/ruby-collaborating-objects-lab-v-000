@@ -13,6 +13,10 @@ attr_reader :songs
     @songs << song
   end
 
+  def self.all
+    @@all
+  end
+
   def save
     self.class.all << self
   end
@@ -22,7 +26,7 @@ attr_reader :songs
   end
 
   def self.create_by_name (name)
-    artist = self.new
+    artist = self.new (name)
     artist.name = name
     artist
   end
