@@ -1,7 +1,7 @@
 class Artist
 attr_accessor :name
 attr_reader :songs
-
+@@all = []
 
 
   def initialize (name)
@@ -28,6 +28,7 @@ attr_reader :songs
   end
 
   def self.find_by_name (name)
+
 
 
   end
